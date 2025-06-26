@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org" do 
-  gem 'danger'
+  gem 'danger', '>= 6.0.0'
 end
 
 
-gem "fastlane"
+gem "fastlane", ">= 2.28.0"
